@@ -10,5 +10,12 @@ bool checkprime(int n){
     return true;
 }
 int main(){
-       
+    int n;
+    cin>>n;
+    if(checkprime(n)==true){
+        cout<<"Number entered is prime";
+    }
+    else{
+        cout<<"number entered is not prime";
+    }
 }
