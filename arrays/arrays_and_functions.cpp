@@ -7,28 +7,17 @@ void print(int arr[], int size)
         cout << arr[index] << " ";
     }
 }
-void solve(int num[], int n)
+void solve(int arr[], int n)
 {
     for (int i = 0; i < n; i++)
     {
-        num[i] = num[i] + 10;
+        arr[i] = arr[i] + 10;
     }
-    return;
 }
 int main()
 {
     int arr[] = {10, 20, 30, 40, 50};
     int size = 5;
+    solve(arr,size);
     print(arr, size);
 }
-
-// }
-// int main(){
-//     int arr[4]={0};
-//     int size=4;
-//     solve(arr,size);
-//     for(int i=0;i<4;i++){
-//         cout<< arr[i];
-//     }
-//     return 0;
-// }
